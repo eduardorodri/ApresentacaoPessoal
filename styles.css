@@ -1,11 +1,14 @@
 body{
-    background-color:#282830;
+    background-image: url(backimage2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
 }
+
 
 header{
 display: flex;
@@ -38,19 +41,19 @@ a{
 }
 
 a:hover{
-    color:#3D8EB9;
+    color:#3271e7;
     transition: 0.4s all;
 }
 #btn{
 
-    border: 2px solid #3D8EB9;
+    border: 2px solid #3271e7;
     padding: 10px;
     border-radius: 20px;
 
     }
     
     #btn:hover{
-    background-color:#3D8EB9;
+    background-color:#3271e7;
     color: white;
     
     }
@@ -79,7 +82,7 @@ form{
 form [type="submit"]{
         height: 50px;
         width: 50%;
-        background-color:#3D8EB9;
+        background-color:#3271e7;
         color: white;
         font-weight: bold;
     }
